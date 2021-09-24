@@ -101,7 +101,7 @@ const mergeSort = async (start, end) => {
     await createBars(start, end);
 
     // Waiting time is 800ms
-    await delcareSpeed(800);
+    await delcareSpeed(200);
   }
 };
 
