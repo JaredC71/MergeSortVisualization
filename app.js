@@ -1,5 +1,3 @@
-
-
 let canvas, canvaswidth, canvasheight, bar;
 const resetBtn = document.getElementById("reset");
 const sortBtn = document.getElementById("sort");

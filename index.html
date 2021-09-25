@@ -6,15 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
+<style>
+  h1 {
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+
+    justify-content: space-between;
+
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+</style>
 <body>
+<nav>
+  <h1>Merge Sort Visualization</h1>
+  <div class="btns">
+    <button id="sort">Sort</button> <button id="reset">Reset</button>
+  </div>
 
-  <h1 class="title" style="color: green; font: lighter">
-    <span> <button id="sort">Sort</button> <button id="reset">Reset</button></span>
-  </h1>
-
+</nav>
+ 
   
-
+<div class="container">
   <canvas id="Canvas"></canvas>
+</div>
+
 
   <script src="./app.js"></script>
   
